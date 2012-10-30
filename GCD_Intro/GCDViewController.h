@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GCDViewController : UIViewController
+@interface GCDViewController : UIViewController{
+    NSInteger moneyInTheBank;
+}
 
 @end

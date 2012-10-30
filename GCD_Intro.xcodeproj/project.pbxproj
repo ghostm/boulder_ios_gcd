@@ -18,22 +18,9 @@
 		3493AC7E163358A800374874 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3493AC7D163358A800374874 /* Default-568h@2x.png */; };
 		3493AC81163358A800374874 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493AC80163358A800374874 /* GCDViewController.m */; };
 		3493AC84163358A800374874 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3493AC82163358A800374874 /* GCDViewController.xib */; };
-		3493AC8C163358A800374874 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3493AC8B163358A800374874 /* SenTestingKit.framework */; };
-		3493AC8D163358A800374874 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3493AC67163358A800374874 /* UIKit.framework */; };
-		3493AC8E163358A800374874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3493AC69163358A800374874 /* Foundation.framework */; };
-		3493AC96163358A800374874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3493AC94163358A800374874 /* InfoPlist.strings */; };
-		3493AC99163358A900374874 /* GCD_IntroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493AC98163358A900374874 /* GCD_IntroTests.m */; };
+		3493ACA416335C5300374874 /* GCDAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493ACA316335C5300374874 /* GCDAccount.m */; };
+		3493ACA716335C6100374874 /* GCDTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493ACA616335C6100374874 /* GCDTransaction.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3493AC8F163358A800374874 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3493AC5A163358A800374874 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3493AC62163358A800374874;
-			remoteInfo = GCD_Intro;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3493AC63163358A800374874 /* GCD_Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD_Intro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,12 +39,11 @@
 		3493AC7F163358A800374874 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		3493AC80163358A800374874 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		3493AC83163358A800374874 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GCDViewController.xib; sourceTree = "<group>"; };
-		3493AC8A163358A800374874 /* GCD_IntroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCD_IntroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3493AC8B163358A800374874 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3493AC93163358A800374874 /* GCD_IntroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GCD_IntroTests-Info.plist"; sourceTree = "<group>"; };
-		3493AC95163358A800374874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3493AC97163358A900374874 /* GCD_IntroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_IntroTests.h; sourceTree = "<group>"; };
-		3493AC98163358A900374874 /* GCD_IntroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_IntroTests.m; sourceTree = "<group>"; };
+		3493ACA216335C5300374874 /* GCDAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAccount.h; sourceTree = "<group>"; };
+		3493ACA316335C5300374874 /* GCDAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAccount.m; sourceTree = "<group>"; };
+		3493ACA516335C6100374874 /* GCDTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTransaction.h; sourceTree = "<group>"; };
+		3493ACA616335C6100374874 /* GCDTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTransaction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +57,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3493AC86163358A800374874 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3493AC8C163358A800374874 /* SenTestingKit.framework in Frameworks */,
-				3493AC8D163358A800374874 /* UIKit.framework in Frameworks */,
-				3493AC8E163358A800374874 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				3493AC6D163358A800374874 /* GCD_Intro */,
-				3493AC91163358A800374874 /* GCD_IntroTests */,
 				3493AC66163358A800374874 /* Frameworks */,
 				3493AC64163358A800374874 /* Products */,
 			);
@@ -98,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				3493AC63163358A800374874 /* GCD_Intro.app */,
-				3493AC8A163358A800374874 /* GCD_IntroTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +96,10 @@
 				3493AC7F163358A800374874 /* GCDViewController.h */,
 				3493AC80163358A800374874 /* GCDViewController.m */,
 				3493AC82163358A800374874 /* GCDViewController.xib */,
+				3493ACA216335C5300374874 /* GCDAccount.h */,
+				3493ACA316335C5300374874 /* GCDAccount.m */,
+				3493ACA516335C6100374874 /* GCDTransaction.h */,
+				3493ACA616335C6100374874 /* GCDTransaction.m */,
 				3493AC6E163358A800374874 /* Supporting Files */,
 			);
 			path = GCD_Intro;
@@ -137,25 +115,6 @@
 				3493AC79163358A800374874 /* Default.png */,
 				3493AC7B163358A800374874 /* Default@2x.png */,
 				3493AC7D163358A800374874 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3493AC91163358A800374874 /* GCD_IntroTests */ = {
-			isa = PBXGroup;
-			children = (
-				3493AC97163358A900374874 /* GCD_IntroTests.h */,
-				3493AC98163358A900374874 /* GCD_IntroTests.m */,
-				3493AC92163358A800374874 /* Supporting Files */,
-			);
-			path = GCD_IntroTests;
-			sourceTree = "<group>";
-		};
-		3493AC92163358A800374874 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3493AC93163358A800374874 /* GCD_IntroTests-Info.plist */,
-				3493AC94163358A800374874 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,25 +139,6 @@
 			productReference = 3493AC63163358A800374874 /* GCD_Intro.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3493AC89163358A800374874 /* GCD_IntroTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3493AC9F163358A900374874 /* Build configuration list for PBXNativeTarget "GCD_IntroTests" */;
-			buildPhases = (
-				3493AC85163358A800374874 /* Sources */,
-				3493AC86163358A800374874 /* Frameworks */,
-				3493AC87163358A800374874 /* Resources */,
-				3493AC88163358A800374874 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3493AC90163358A800374874 /* PBXTargetDependency */,
-			);
-			name = GCD_IntroTests;
-			productName = GCD_IntroTests;
-			productReference = 3493AC8A163358A800374874 /* GCD_IntroTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,7 +162,6 @@
 			projectRoot = "";
 			targets = (
 				3493AC62163358A800374874 /* GCD_Intro */,
-				3493AC89163358A800374874 /* GCD_IntroTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,31 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3493AC87163358A800374874 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3493AC96163358A800374874 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3493AC88163358A800374874 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3493AC5F163358A800374874 /* Sources */ = {
@@ -274,26 +189,12 @@
 				3493AC74163358A800374874 /* main.m in Sources */,
 				3493AC78163358A800374874 /* GCDAppDelegate.m in Sources */,
 				3493AC81163358A800374874 /* GCDViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3493AC85163358A800374874 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3493AC99163358A900374874 /* GCD_IntroTests.m in Sources */,
+				3493ACA416335C5300374874 /* GCDAccount.m in Sources */,
+				3493ACA716335C6100374874 /* GCDTransaction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3493AC90163358A800374874 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3493AC62163358A800374874 /* GCD_Intro */;
-			targetProxy = 3493AC8F163358A800374874 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3493AC70163358A800374874 /* InfoPlist.strings */ = {
@@ -310,14 +211,6 @@
 				3493AC83163358A800374874 /* en */,
 			);
 			name = GCDViewController.xib;
-			sourceTree = "<group>";
-		};
-		3493AC94163358A800374874 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3493AC95163358A800374874 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -395,40 +288,6 @@
 			};
 			name = Release;
 		};
-		3493ACA0163358A900374874 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GCD_Intro.app/GCD_Intro";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GCD_Intro/GCD_Intro-Prefix.pch";
-				INFOPLIST_FILE = "GCD_IntroTests/GCD_IntroTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		3493ACA1163358A900374874 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GCD_Intro.app/GCD_Intro";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GCD_Intro/GCD_Intro-Prefix.pch";
-				INFOPLIST_FILE = "GCD_IntroTests/GCD_IntroTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,14 +305,6 @@
 			buildConfigurations = (
 				3493AC9D163358A900374874 /* Debug */,
 				3493AC9E163358A900374874 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		3493AC9F163358A900374874 /* Build configuration list for PBXNativeTarget "GCD_IntroTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3493ACA0163358A900374874 /* Debug */,
-				3493ACA1163358A900374874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
